@@ -162,9 +162,9 @@ export function Hero() {
             rot={rotCard1}
             className="left-0 top-8 z-10 w-[58%]"
             delay={0.6}
-            label="Business cards"
-            // TODO(client): swap for your own product photography
-            src="https://images.unsplash.com/photo-1606293459339-aa5d34a7b0e1?auto=format&fit=crop&w=900&q=70"
+            label="Packing bags"
+            src="/photos/setty-bags.jpg"
+            objectPosition="center"
           />
           <FloatingCard
             y={yCard2}
@@ -172,7 +172,8 @@ export function Hero() {
             className="right-0 top-32 z-20 w-[60%]"
             delay={0.8}
             label="Branded apparel"
-            src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=900&q=80"
+            src="/photos/ubuntu-tee.jpg"
+            objectPosition="center 30%"
           />
           <FloatingCard
             y={yCard3}
@@ -180,7 +181,8 @@ export function Hero() {
             className="bottom-0 left-8 z-30 w-[64%]"
             delay={1}
             label="Event branding"
-            src="https://images.unsplash.com/photo-1505373877841-8d25f7d46678?auto=format&fit=crop&w=1000&q=75"
+            src="/photos/ths-frame.jpg"
+            objectPosition="center 30%"
           />
         </div>
       </div>
@@ -195,6 +197,7 @@ function FloatingCard({
   delay = 0,
   label,
   src,
+  objectPosition = "center",
 }: {
   y: any;
   rot: any;
@@ -202,6 +205,7 @@ function FloatingCard({
   delay?: number;
   label: string;
   src: string;
+  objectPosition?: string;
 }) {
   return (
     <m.div
@@ -217,6 +221,7 @@ function FloatingCard({
         width={900}
         height={1080}
         sizes="(min-width: 1024px) 30vw, 60vw"
+        style={{ objectPosition }}
         className="h-full w-full object-cover"
         priority
       />

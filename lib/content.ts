@@ -97,40 +97,37 @@ export const SERVICES_BUSINESS: ServiceTile[] = [
   },
   {
     title: "Packing bags",
-    blurb: "Branded paper bags & boxes that retail crowds notice.",
+    blurb: "Branded non-woven & paper bags that retail crowds notice.",
     icon: PackageOpen,
     badge: "Most popular",
     span: "wide",
-    image:
-      "https://images.unsplash.com/photo-1591375275624-c4d8d4f9b1c2?auto=format&fit=crop&w=1200&q=70",
+    image: "/photos/pioneers-bag.jpg",
   },
   {
     title: "Warrant cards",
-    blurb: "Tamper-evident IDs for staff & inspection teams.",
+    blurb: "Tamper-evident IDs & lanyards for staff and inspection teams.",
     icon: ShieldCheck,
     span: "md",
     image:
-      "https://images.unsplash.com/photo-1583912267550-d6c2ac3196c0?auto=format&fit=crop&w=900&q=70",
+      "https://images.unsplash.com/photo-1564846824194-346b7871b855?auto=format&fit=crop&w=900&q=70",
   },
   {
     title: "Receipt books",
     blurb: "Numbered, carbonless, in your brand. TRA-ready.",
     icon: Receipt,
     span: "md",
-    image:
-      "https://images.unsplash.com/photo-1554224155-6726b3ff858f?auto=format&fit=crop&w=900&q=70",
+    image: "/photos/universelaptop-receipt.jpg",
   },
   {
-    title: "Branded apparel",
-    blurb: "T-shirts, polos, hoodies & uniforms — DTF & screen.",
+    title: "Apparel & merch",
+    blurb: "T-shirts, polos, hoodies, mugs — DTF, screen print & embroidery.",
     icon: Shirt,
     span: "tall",
-    image:
-      "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=900&q=80",
+    image: "/photos/ubuntu-tee.jpg",
   },
   {
     title: "Stickers & labels",
-    blurb: "Vinyl, holographic, kiss-cut. Tiny runs welcome.",
+    blurb: "Vinyl, holographic, kiss-cut + laser-engraved gifts.",
     icon: Sticker,
     span: "md",
     image:
@@ -173,11 +170,10 @@ export const SERVICES_NGO: ServiceTile[] = [
   },
   {
     title: "Event branding",
-    blurb: "Backdrops, lanyards, name tags, stage signage.",
+    blurb: "Backdrops, photo frames, lanyards, name tags & stage signage.",
     icon: PartyPopper,
     span: "md",
-    image:
-      "https://images.unsplash.com/photo-1505373877841-8d25f7d46678?auto=format&fit=crop&w=900&q=70",
+    image: "/photos/ths-booth.jpg",
   },
   {
     title: "Banners & roll-ups",
@@ -202,14 +198,13 @@ export const PROCESS = [
     title: "Design",
     body: "We mock it up and iterate. Two free revisions on every job — no surprises.",
     image:
-      "https://images.unsplash.com/photo-1561070791-2526d30994b8?auto=format&fit=crop&w=1200&q=70",
+      "https://images.unsplash.com/photo-1581291518857-4e27b48ff24e?auto=format&fit=crop&w=1200&q=70",
   },
   {
     n: "03",
     title: "Print",
-    body: "In-house production. Every print is colour-checked before it leaves the press.",
-    image:
-      "https://images.unsplash.com/photo-1611532736597-de2d4265fba3?auto=format&fit=crop&w=1200&q=70",
+    body: "In-house production: DTF, screen print, embroidery, laser engraving and full-colour press. Colour-checked before it leaves us.",
+    image: "/photos/jm-sellers-bag.jpg",
   },
   {
     n: "04",
@@ -229,11 +224,10 @@ export const WORK = [
     tags: ["Event branding", "Signage", "Print collateral"],
   },
   {
-    title: "Thamini Uhai Organization",
-    subtitle: "Event collateral package",
-    image:
-      "https://images.unsplash.com/photo-1505373877841-8d25f7d46678?auto=format&fit=crop&w=1600&q=75",
-    tags: ["Banners", "Flyers", "Backdrops"],
+    title: "Tanzania Health Summit · 12th edition",
+    subtitle: "Booth, photo frames & event branding",
+    image: "/photos/ths-booth.jpg",
+    tags: ["Booth setup", "Photo frames", "Event signage"],
   },
   {
     title: "BBoy Clothing",

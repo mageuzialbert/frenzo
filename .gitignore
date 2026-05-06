@@ -1,0 +1,11 @@
+node_modules
+.next
+.next/types
+out
+build
+.DS_Store
+*.log
+.env*.local
+.vercel
+.turbo
+next-env.d.ts

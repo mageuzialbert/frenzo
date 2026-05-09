@@ -10,4 +10,4 @@ build
 .turbo
 next-env.d.ts
 tsconfig.tsbuildinfo
-photos/
+/photos/
